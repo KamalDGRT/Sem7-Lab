@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please Enter your message here!"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:id="@+id/label"
+            android:paddingVertical="20dp"
+            />
+
+        <EditText
+            android:layout_width="900px"
+            android:layout_height="100px"
+            android:id="@+id/inp"
+            android:layout_centerHorizontal="true"
+            android:text="Enter Message..."
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/label"
+            tools:ignore="MissingConstraints"
+            android:textAlignment="center"
+            />
+
+        <Button
+            android:id="@+id/sendBtn"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/inp"
+            android:layout_centerHorizontal="true"
+            android:onClick="Send"
+            android:text="Send"
+            android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
