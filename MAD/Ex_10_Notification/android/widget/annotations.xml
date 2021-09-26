@@ -1,0 +1,8 @@
+<root>
+    <item name='android.widget.Toast LENGTH_SHORT'>
+        <annotation name='org.jetbrains.annotations.Range'>
+            <val name="from" val="2" />
+            <val name="to" val="3" />
+        </annotation>
+    </item>
+</root>
